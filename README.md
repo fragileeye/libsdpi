@@ -17,5 +17,5 @@ libsdpi是一个轻量级的dpi库，主要思想是可定制化与可配置化�
 		b) core_manager->register_inspect注册类型为core_context的上下文，用以定制开发识别模块;
 		c) core_manager->inspect_packet()识别原始数据包(帧)并得到识别结果，core_manager->inspect_struct()识别结构化数据并得到识别结果;
 
-有疑问请漂流瓶联系:
+有疑问请看代码以及漂流瓶联系:
 	除非"真香",不然这个库不会更新了~实在是没有时间啊~
