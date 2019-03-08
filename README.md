@@ -3,6 +3,7 @@
 libsdpi是一个轻量级的dpi库，主要思想是可定制化与可配置化开发，尽管配置主要修改xx_config.h头文件，但是实在没精力再去写解析的代码来进行配置，感觉那些东西都不重要了。该项目是suiyan的第一个个人项目，作为2018年的一个成果，特此留念。
 
 使用方法：
+	
 	1) 编译静态库：(Windows下直接CMake，Linux下不推荐CMake)
 		a)Windows系统
 		在VS新建静态链接库的项目，导入所有.h和.c的文件，编译即可生成libsdpi.lib；随后在程序中#pragma comment(lib, "libsdpi")即完成库的导入。
